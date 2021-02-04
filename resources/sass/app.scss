@@ -1,0 +1,42 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+
+@import 'mobile';
+
+// Basic
+@import 'basic/config';
+@import 'basic/reset';
+@import 'basic/bootstrap';
+@import 'basic/spacers';
+@import 'basic/helpers';
+
+// Elements
+@import 'elements/titles';
+@import 'elements/line';
+
+// Effects
+@import 'effects/stars';
+
+
+// Boxes
+@import 'boxes/realise';
+@import 'boxes/artist';
+@import 'boxes/iframe';
+
+// Components
+@import 'components/header';
+@import 'components/navbar';
+@import 'components/footer';
+@import 'components/folow-us';
+@import 'components/artists';
+
+// Pages
+@import 'pages/release';
+@import 'pages/artist';

@@ -1,0 +1,49 @@
+.realise-box {
+    // margin-bottom: 30px;
+    position: relative;
+
+    a {
+        color: #ccc;
+        &:hover, &:active {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    .img-wrapper {
+        transition: all 0.5s;
+        &:hover {
+            opacity: 0.6;
+        }
+    }
+
+
+    
+    &:hover {
+        .text-wrapper {
+            opacity: 1;
+            bottom: 0;
+        }
+    }    
+    .text-wrapper {
+        transition: all 0.5s;
+        opacity: 0;
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        color: #eee;
+        // background: $secondary-color;
+        background: rgba(0, 0, 0, 0.8);
+        padding: 15px 5px;
+        text-align: center;
+    }
+    .artist {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .realise-name {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+}

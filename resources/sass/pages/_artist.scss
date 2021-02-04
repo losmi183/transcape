@@ -1,0 +1,43 @@
+#artist {
+    
+    
+    .artist-caption {
+        text-transform: uppercase;
+        color: #ccc;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .artist-info {
+        color: #ccc;
+        font-size: 20px;
+        h4 {
+            margin-bottom: 30px;
+        }
+        a {
+            // display: none;
+            color: #ccc;
+            display: block;
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .bio {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .icons-wrapper {
+        a {
+            margin: 0 10px;
+        }
+    }
+    .icon-img {
+        height: 60px;
+        width: auto;
+    }
+
+}

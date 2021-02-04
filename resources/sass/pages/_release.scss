@@ -1,0 +1,36 @@
+#release {
+
+    
+    .realise-caption {
+        text-transform: uppercase;
+        color: #ccc;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .release-info {
+        color: #ccc;
+        font-size: 20px;
+        h4 {
+            margin-bottom: 30px;
+        }
+        a {
+            // display: none;
+            color: #ccc;
+            display: block;
+            &:hover {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+    .icons-wrapper {
+        display: flex;
+        justify-content: flex-end;
+
+        img {
+            height: 60px;
+            margin-left: 15px;
+        }
+    }
+} 

@@ -1,0 +1,16 @@
+.artist-box {
+
+    padding: 30px;
+
+    .img-wrapper {
+        cursor: pointer;
+    }
+
+    .text-wrapper {
+        text-align: center;
+        margin: 20px 0;
+        color: #ccc;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,86 @@
+nav {
+    width: 100%;
+    background: black;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    ul {
+        padding: 0 ;
+        margin: 0 ;
+    }
+    li {
+        display: inline-block;
+        margin: 10px 10px;
+    }
+    li a {
+        position: relative;
+        display: inline-block;
+        padding: 5px 15px;
+        color: $gray-color;
+        font-size: 20px;
+
+        transition: all 0.2s;
+        &:hover {
+            color: $gray-color !important;
+            text-decoration: none;
+        }
+    }
+
+    margin-top: 30px;
+
+    box-shadow:
+    0 0 5px 2px #fff,
+    /* 0 0 100px 60px #b5c2d3, */
+    0 0 40px 15px #0671fc;
+
+    .active {
+        color: $primary-color;
+    }
+
+// Hover line effect
+li:hover {
+    .dot {
+        visibility: visible;
+    }
+    .top-left {
+        width: 100%;
+    }
+    .top-left-2 {
+        height: 100%;
+    }
+    .bottom-right {
+        width: 100%;
+    }
+    .bottom-right-2 {
+        height: 100%;
+    }
+}
+
+
+.dot {
+    transition: all 0.4s;
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    background: $primary-color;
+    visibility: hidden;
+}
+.top-left {
+    left: 0;
+    top: 0;
+}
+.top-left-2 {
+    left: 0;
+    top: 0;
+}
+.bottom-right {
+    right: 0;
+    bottom: 0;
+}
+.bottom-right-2 {
+    right: 0;
+    bottom: 0;
+}
+
+
+}

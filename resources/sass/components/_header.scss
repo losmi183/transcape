@@ -1,0 +1,25 @@
+.logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0 5px;
+
+    position: relative;
+
+    .part2 {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        height: 100%;
+        text-align: center;
+
+        transition: all 2.5s;
+    }
+}
+.rotate {
+    transform: rotateY(1turn);
+}
