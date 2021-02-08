@@ -20,6 +20,7 @@
 // Elements
 @import 'elements/titles';
 @import 'elements/line';
+@import 'elements/buttons';
 
 // Effects
 @import 'effects/stars';
@@ -32,10 +33,9 @@
 
 // Components
 @import 'components/header';
-@import 'components/navbar';
 @import 'components/footer';
 @import 'components/folow-us';
-@import 'components/artists';
+@import 'components/navbar-bootstrap';
 
 // Pages
 @import 'pages/release';

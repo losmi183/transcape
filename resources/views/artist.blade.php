@@ -23,11 +23,18 @@
         <div class="row">
             <div class="col-xl-6 offset-xl-3 col-ld-8 offset-ld-2 col-md-12 artist-info">
                 <div class="icons-wrapper d-flex justify-content-center">
-                    <a href="{{ $artist->soundcloud }}"><img class="icon-img" src="/images/icons/soundcloud.png" alt=""></a>                              
-                    <a href="{{ $artist->mixcloud }}"><img class="icon-img"  src="/images/icons/mixcloud.png" alt=""></a>                              
-                    <a href="{{ $artist->hearthis }}"><img class="icon-img"  src="/images/icons/hearthis.png" alt=""></a>                              
-                    <a href="{{ $artist->facebook }}"><img class="icon-img"  src="/images/icons/facebook.png" alt=""></a>                              
-                    <a href="{{ $artist->instagram }}"><img class="icon-img"  src="/images/icons/instagram.png" alt=""></a>    
+                    @if ($artist->soundcloud)
+                        <a href="{{ $artist->soundcloud }}"><img class="icon-img" src="/images/icons/soundcloud.png" alt=""></a>                              
+                    @endif
+                    @if ($artist->mixcloud)
+                        <a href="{{ $artist->mixcloud }}"><img class="icon-img"  src="/images/icons/mixcloud.png" alt=""></a>                              
+                    @endif
+                    @if ($artist->facebook)
+                        <a href="{{ $artist->facebook }}"><img class="icon-img"  src="/images/icons/facebook.png" alt=""></a>                              
+                    @endif
+                    @if ($artist->instagram)
+                        <a href="{{ $artist->instagram }}"><img class="icon-img"  src="/images/icons/instagram.png" alt=""></a>    
+                    @endif
                 </div>
 
                 <div class="space-40"></div>

@@ -1,0 +1,12 @@
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Basic
+@import 'basic/config';
+@import 'basic/reset';
+/*
+* Admin
+*/
+@import 'admin/layout';
+
+@import 'elements/table';

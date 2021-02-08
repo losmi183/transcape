@@ -2,15 +2,41 @@
 
     padding: 30px;
 
-    .img-wrapper {
-        cursor: pointer;
-    }
-
     .text-wrapper {
         text-align: center;
         margin: 20px 0;
         color: #ccc;
         text-transform: uppercase;
         cursor: pointer;
+    }
+
+    background-image: linear-gradient(#333, #111);
+
+    a {
+        color: #ccc;
+        &:hover {
+            color: #ccc;
+            text-decoration: none;
+        }
+    }
+
+    .img-wrapper {
+        cursor: pointer;
+        overflow: hidden;
+        img {
+            margin: 0 auto;
+            transition: all 0.5s;
+            opacity: 1;
+        }
+        img:hover {
+            opacity: 0.6;
+            transform: scale(1.1);
+        }
+    }
+    .text-wrapper h3 {
+        transition: all 0.3s;
+        &:hover {
+            color: $primary-color;
+        }
     }
 }

@@ -19,12 +19,11 @@ class CreateArtistsTable extends Migration
             
             $table->string('name');
             $table->string('full_name')->nullable();
-            $table->string('role')->default('act');
+            $table->string('role')->default('liveact');
             $table->text('photo');
             $table->text('bio');
             $table->string('soundcloud')->nullable();
             $table->string('mixcloud')->nullable();
-            $table->string('hearthis')->nullable();
             $table->string('facebook')->nullable();
             $table->string('instagram')->nullable();
             $table->timestamps();

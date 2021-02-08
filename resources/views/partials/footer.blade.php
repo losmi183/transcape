@@ -12,8 +12,9 @@
             <div class="col-lg-6 col-md-8 offset-lg-3 offset-md-2">
                 <div class="d-flex justify-content-between">
                         <a href="https://www.facebook.com/transcape.records"><i class="fab fa-facebook"></i></a>
-                        <a href="https://soundcloud.com/transcape-records"><i class="fab fa-soundcloud"></i></i></a>
+                        <a href="https://www.instagram.com/transcape_records/"><i class="fab fa-instagram"></i></a>
                         <a href="https://twitter.com/Transcape_Rec"><i class="fab fa-twitter"></i></a>
+                        <a href="https://soundcloud.com/transcape-records"><i class="fab fa-soundcloud"></i></i></a>
                         <a href="https://www.youtube.com/c/TranscapeRecords_Serbia"><i class="fab fa-youtube"></i></i></a>
                         <a href="https://www.beatport.com/label/transcape-records/49022"><img src="/images/beatport.png" alt=""></a>
                 </div>

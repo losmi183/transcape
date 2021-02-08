@@ -9,9 +9,25 @@ class ArtistsController extends Controller
 {
     public function index()
     {
-        $artists = Artist::paginate(16);
+        $liveacts = Artist::where('role', 'act')->orderBy('name', 'ASC')->get();
 
-        return view('artists', compact('artists'));
+        $djs = Artist::where('role', 'dj')->orderBy('name', 'ASC')->get();
+
+        return view('artists', compact('liveacts', 'djs'));
+    }
+
+    public function indexLiveacts()
+    {
+        $liveacts = Artist::where('role', 'act')->orderBy('name', 'ASC')->get();
+
+        return view('artists', compact('liveacts'));
+    }
+
+    public function indexDjs()
+    {
+        $djs = Artist::where('role', 'dj')->orderBy('name', 'ASC')->get();
+
+        return view('artists', compact('djs'));
     }
 
     public function show($slug)

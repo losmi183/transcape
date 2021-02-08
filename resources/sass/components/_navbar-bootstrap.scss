@@ -1,0 +1,92 @@
+.navbar {
+    background: black !important;
+
+    margin-top: 30px;
+
+    box-shadow:
+    0 0 5px 2px #fff,
+    /* 0 0 100px 60px #b5c2d3, */
+    0 0 40px 15px #0671fc;
+
+    li.nav-item {
+        position: relative;
+        margin-right: 30px;
+        padding: 0 !important;
+    }
+    li.nav-item:last-child {
+        position: relative;
+        margin-right: 0 !important;
+    }
+
+    li a {
+        padding: 5px 10px 2px 10px !important;
+        color: $gray-color !important;
+        font-size: 20px;
+
+        transition: all 0.2s;
+        &:hover {
+            // text-shadow: 1px 1px  #0671fc, -1px -1px  #0671fc;
+            color: white !important;
+            text-decoration: none;
+        }
+    }
+
+    // Hamburger icon
+    .navbar-toggler {
+        i {
+            color: #ccc !important;
+            padding: 4px 0; 
+            font-size: 27px;
+        }
+        padding: 0 !important; 
+        border: none !important;
+    }    
+
+    // Hover line effect
+    li:hover {
+        .dot {
+            visibility: visible;
+        }
+        .top-left {
+            width: 18px;
+        }
+        .top-left-2 {
+            height: 18px;
+        }
+        .bottom-right {
+            width: 18px;
+        }
+        .bottom-right-2 {
+            height: 18px;
+        }
+    }
+    .dot {
+        transition: all 0.2s;
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        background: $primary-color;
+        visibility: hidden;
+    }
+    .top-left {
+        left: 0;
+        top: 0;
+    }
+    .top-left-2 {
+        left: 0;
+        top: 0;
+    }
+    .bottom-right {
+        right: 0;
+        bottom: 0;
+    }
+    .bottom-right-2 {
+        right: 0;
+        bottom: 0;
+    }
+
+    .active {
+        color: $primary-color !important;
+    }
+
+}

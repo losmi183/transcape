@@ -19,8 +19,8 @@ class CreateReleasesTable extends Migration
 
             $table->string('artist');
             $table->string('title');
-            $table->string('cover');
-            $table->date('release_date');
+            $table->string('cover')->nullable();
+            $table->date('release_date')->nullable();
 
             $table->string('beatport')->nullable();
             $table->string('juno')->nullable();
