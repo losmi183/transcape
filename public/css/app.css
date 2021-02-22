@@ -10005,19 +10005,15 @@ h3 {
   }
 }
 @media (max-width: 399.98px) {
-  nav li a {
-    font-size: 16px !important;
-  }
-
   #folow-us a {
     border-radius: 45px !important;
     width: 45px !important;
     height: 45px !important;
   }
 }
-@media (max-width: 575.98px) {
-  nav li a {
-    margin: 10px 5px !important;
+@media (max-width: 767.98px) {
+  .dot {
+    display: none !important;
   }
 }
 body {

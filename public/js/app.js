@@ -379,10 +379,9 @@ eval("/* module decorator */ module = __webpack_require__.nmd(module);\nvar __WE
 /*!*********************************!*\
   !*** ./resources/sass/app.scss ***!
   \*********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ (() => {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvc2Fzcy9hcHAuc2Nzcz80NzVmIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFBQSIsImZpbGUiOiIuL3Jlc291cmNlcy9zYXNzL2FwcC5zY3NzLmpzIiwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5leHBvcnQge307Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./resources/sass/app.scss\n");
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \"{\".\n   ╷\n23 │     a\r\n   │      ^\n   ╵\n  resources\\sass\\_mobile.scss 23:6  @import\n  C:\\xampp\\htdocs\\transcape\\resources\\sass\\app.scss 11:9                        root stylesheet\n    at processResult (C:\\xampp\\htdocs\\transcape\\node_modules\\webpack\\lib\\NormalModule.js:598:19)\n    at C:\\xampp\\htdocs\\transcape\\node_modules\\webpack\\lib\\NormalModule.js:692:5\n    at C:\\xampp\\htdocs\\transcape\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\xampp\\htdocs\\transcape\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\xampp\\htdocs\\transcape\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at C:\\xampp\\htdocs\\transcape\\node_modules\\sass-loader\\dist\\index.js:73:7\n    at Function.call$2 (C:\\xampp\\htdocs\\transcape\\node_modules\\sass\\sass.dart.js:91135:16)\n    at _render_closure1.call$2 (C:\\xampp\\htdocs\\transcape\\node_modules\\sass\\sass.dart.js:80011:12)\n    at _RootZone.runBinary$3$3 (C:\\xampp\\htdocs\\transcape\\node_modules\\sass\\sass.dart.js:27197:18)\n    at _FutureListener.handleError$1 (C:\\xampp\\htdocs\\transcape\\node_modules\\sass\\sass.dart.js:25725:19)");
 
 /***/ }),
 
