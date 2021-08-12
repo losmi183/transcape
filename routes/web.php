@@ -6,6 +6,7 @@ use App\Http\Controllers\ArtistsController;
 use App\Http\Controllers\HomepageController;
 use App\Http\Controllers\ReleasesController;
 use App\Http\Controllers\AdminReleasesController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +29,8 @@ Route::get('/artists/liveacts', [ArtistsController::class, 'indexLiveacts']);
 Route::get('/artists/djs', [ArtistsController::class, 'indexDjs']);
 
 Route::get('/artists/{slug}', [ArtistsController::class, 'show']);
+
+Route::get('/contact', [ContactController::class, 'index']);
 
 
 Auth::routes();

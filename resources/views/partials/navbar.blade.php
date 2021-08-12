@@ -75,7 +75,7 @@
             <div class="dot top-left-2"></div>
             <div class="dot bottom-right"></div>
             <div class="dot bottom-right-2"></div>
-            <a class="nav-link {{ (request()->is('contacts*')) ? 'active' : '' }}" href="/contacts">CONTACTS</a></li>
+            <a class="nav-link {{ (request()->is('contacts*')) ? 'active' : '' }}" href="/contact">CONTACT</a></li>
         </ul>
     </div>
   </nav>
